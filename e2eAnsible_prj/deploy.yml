@@ -18,7 +18,7 @@
   tasks:
   
     - copy:
-       src: /usr/share/maven3/nvnshoppingcart/target/nvnshoppingcart.war
+       src: /var/lib/jenkins/.m2/repository/com/demo/registration/1.0.0-SNAPSHOT/registration-1.0.0-SNAPSHOT.war
        dest: /usr/local/apache-tomcat-8.0.23/webapps/
        mode: 0777
        owner: root
